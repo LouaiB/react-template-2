@@ -1,0 +1,37 @@
+.login-page
+    background: var(--background-color)
+    color: var(--foreground-color)
+    padding: 20px
+    
+    .login-form
+        display: flex
+        flex-direction: column
+        align-items: baseline
+
+        >*
+            margin-bottom: 10px
+
+        input
+            background: var(--input-bg-color)
+            color: var(--foreground-color)
+            outline: 0
+            padding: 5px 10px
+            border: 1px solid #88888855
+            border-radius: var(--border-radius)
+
+        .error
+            background: #b32020
+            color: white
+            border-radius: var(--border-radius)
+            padding: 3px 5px
+            font-size: 0.8em
+
+.spin
+    animation: 0.5s linear infinite spin
+
+@keyframes spin
+    0%
+        transform: rotateZ(0deg)
+    100%
+        transform: rotateZ(-360deg)
+            

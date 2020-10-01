@@ -1,0 +1,5 @@
+{
+    "tokenStorageKey": "template-auth-token",
+    "refreshTokenStorageKey": "template-refresh-token",
+    "apiUrl": "http://localhost:6200"
+}
